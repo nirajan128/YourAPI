@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "An API that runs locally on your desktop uses postgress for DB and npm packages",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "type": "module"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Nirajan SHrestha",
   "license": "ISC",
