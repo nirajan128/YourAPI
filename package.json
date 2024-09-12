@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "author": "Nirajan SHrestha",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.20.0",

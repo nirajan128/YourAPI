@@ -1,0 +1,6 @@
+CREATE TABLE animeList(
+    id SERIAL PRIMARY KEY,       
+    title VARCHAR(50) NOT NULL,
+    rating VARCHAR(100) NOT NULL,
+	image TEXT   
+);

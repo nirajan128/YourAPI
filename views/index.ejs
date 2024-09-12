@@ -14,45 +14,53 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form class="p-4 border border-dark rounded">
+          <form
+            class="p-4 border border-dark rounded"
+            action="/addContent"
+            method="post"
+          >
             <!-- Input 1 -->
             <div class="mb-3">
-              <label for="input1" class="form-label">Input Label 1</label>
+              <label for="title" class="form-label">rating</label>
               <input
                 type="text"
                 class="form-control"
-                id="input1"
+                id="title"
                 placeholder="Enter something..."
+                name="title"
               />
             </div>
 
             <!-- Input 2 -->
             <div class="mb-3">
-              <label for="input2" class="form-label">Input Label 2</label>
+              <label for="rating" class="form-label">Rating</label>
               <input
-                type="email"
+                type="number"
                 class="form-control"
-                id="input2"
-                placeholder="Enter your email"
+                id="rating"
+                name="rating"
               />
             </div>
 
             <!-- Input 3 -->
             <div class="mb-3">
-              <label for="input3" class="form-label">Input Label 3</label>
+              <label for="imgURL" class="form-label">Image URL</label>
               <input
-                type="password"
+                type="text"
                 class="form-control"
-                id="input3"
-                placeholder="Enter a password"
+                id="imgURL"
+                name="imgURL"
               />
             </div>
 
             <!-- Submit Button -->
             <div class="text-center">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">POST</button>
             </div>
           </form>
+          <div class="col-6">
+            <p><%= message %></p>
+          </div>
         </div>
       </div>
     </div>
