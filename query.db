@@ -4,3 +4,5 @@ CREATE TABLE animeList(
     rating VARCHAR(100) NOT NULL,
 	image TEXT   
 );
+
+//You can create your own table
